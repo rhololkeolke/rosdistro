@@ -1,0 +1,22 @@
+%YAML 1.1
+# index file
+# this file describes the available ROS distributions
+# see REP 137: http://ros.org/reps/rep-0137.html
+---
+type: index
+version: 1
+distributions:
+  groovy:
+    release: groovy.yaml
+    release_build: [groovy-build.yaml]
+    release_cache: http://ros.org/rosdistro/groovy-cache.yaml
+    test: groovy-devel.yaml
+    test_build: [groovy-devel-build.yaml]
+    doc_folder: ../doc/groovy
+  hydro:
+    release: hydro.yaml
+    release_build: []
+    release_cache: http://ros.org/rosdistro/hydro-cache.yaml
+    test: hydro-devel.yaml
+    test_build: [hydro-devel-build.yaml]
+    doc_folder: ../doc/hydro
