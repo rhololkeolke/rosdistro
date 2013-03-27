@@ -1,0 +1,957 @@
+gbp-repos:
+  ? You must update to a newer rosdep version by calling..sudo apt-get update && sudo
+    apt-get install python-rosdep (make sure to uninstall the pip version on Ubuntu
+  :
+platforms:
+- precise
+- quantal
+- raring
+repositories:
+  ackermann_msgs:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/jack-oquin/ackermann_msgs-release.git
+    version: 0.9.0-0
+  actionlib:
+    url: https://github.com/ros-gbp/actionlib-release.git
+    version:
+  actionlibjs:
+    url: https://github.com/RobotWebTools-release/actionlibjs-release.git
+    version:
+  ar_track_alvar:
+    url: https://github.com/ros-gbp/ar_track_alvar-release.git
+    version:
+  bond_core:
+    packages:
+      bond:
+        subfolder: bond
+      bond_core:
+        subfolder: bond_core
+      bondcpp:
+        subfolder: bondcpp
+      bondpy:
+        subfolder: bondpy
+      smclib:
+        subfolder: smclib
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/bond_core-release.git
+    version: 1.7.11-0
+  calibration:
+    packages:
+      calibration:
+      calibration_estimation:
+      calibration_launch:
+      calibration_msgs:
+      image_cb_detector:
+      interval_intersection:
+      joint_states_settler:
+      laser_cb_detector:
+      monocam_settler:
+      settlerlib:
+    url: https://github.com/ros-gbp/calibration-release.git
+    version:
+  catkin:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/catkin-release.git
+    version: 0.5.65-3
+  class_loader:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/class_loader-release.git
+    version: 0.2.0-0
+  common_msgs:
+    packages:
+      actionlib_msgs:
+      common_msgs:
+      diagnostic_msgs:
+      geometry_msgs:
+      nav_msgs:
+      sensor_msgs:
+      shape_msgs:
+      stereo_msgs:
+      trajectory_msgs:
+      visualization_msgs:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/common_msgs-release.git
+    version: 1.9.15-0
+  console_bridge:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/console_bridge-release.git
+    version: 0.2.1-0
+  control_msgs:
+    packages:
+      control:
+        subfolder: compatibility/control
+      control_msgs:
+    url: https://github.com/ros-gbp/control_msgs-release.git
+    version:
+  convex_decomposition:
+    url: https://github.com/ros-gbp/convex_decomposition-release.git
+    version:
+  depthimage_to_laserscan:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/depthimage_to_laserscan-release.git
+    version: 1.0.4-0
+  diagnostics:
+    packages:
+      diagnostic_aggregator:
+      diagnostic_analysis:
+      diagnostic_common_diagnostics:
+      diagnostic_updater:
+      diagnostics:
+      self_test:
+    url: https://github.com/ros-gbp/diagnostics-release.git
+    version:
+  driver_common:
+    packages:
+      driver_base:
+      driver_common:
+      timestamp_tools:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/driver_common-release.git
+    version: 1.6.5-0
+  dynamic_reconfigure:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/dynamic_reconfigure-release.git
+    version: 1.5.32-0
+  ecl_core:
+    packages:
+      ecl_command_line:
+      ecl_concepts:
+      ecl_containers:
+      ecl_converters:
+      ecl_core:
+      ecl_core_apps:
+      ecl_devices:
+      ecl_eigen:
+      ecl_exceptions:
+      ecl_formatters:
+      ecl_geometry:
+      ecl_ipc:
+      ecl_linear_algebra:
+      ecl_math:
+      ecl_mpl:
+      ecl_sigslots:
+      ecl_statistics:
+      ecl_streams:
+      ecl_threads:
+      ecl_time:
+      ecl_type_traits:
+      ecl_utilities:
+    url: https://github.com/yujinrobot-release/ecl_core-release.git
+    version:
+  ecl_lite:
+    packages:
+      ecl_config:
+      ecl_converters_lite:
+      ecl_errors:
+      ecl_io:
+      ecl_lite:
+      ecl_sigslots_lite:
+      ecl_time_lite:
+    url: https://github.com/yujinrobot-release/ecl_lite-release.git
+    version:
+  ecl_manipulation:
+    packages:
+      ecl:
+      ecl_manipulation:
+      ecl_manipulators:
+    url: https://github.com/yujinrobot-release/ecl_manipulation-release.git
+    version:
+  ecl_navigation:
+    packages:
+      ecl_maps:
+      ecl_mobile_robot:
+      ecl_navigation:
+      ecl_navigation_apps:
+      ecl_slam:
+    url: https://github.com/yujinrobot-release/ecl_navigation-release.git
+    version:
+  ecl_tools:
+    packages:
+      ecl_build:
+      ecl_license:
+      ecl_tools:
+    url: https://github.com/yujinrobot-release/ecl_tools-release.git
+    version:
+  ecto:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/ecto-release.git
+    version: 0.5.5-0
+  ecto_image_pipeline:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/ecto_image_pipeline-release.git
+    version: 0.4.11-0
+  ecto_opencv:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/ecto_opencv-release.git
+    version: 0.4.23-0
+  ecto_openni:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/ecto_openni-release.git
+    version: 0.3.8-0
+  ecto_pcl:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/ecto_pcl-release.git
+    version: 0.3.10-0
+  ecto_ros:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/ecto_ros-release.git
+    version: 0.3.23-0
+  eigen_stl_containers:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/eigen_stl_containers-release.git
+    version: 0.1.3-0
+  fcl:
+    url: https://github.com/ros-gbp/fcl-release.git
+    version:
+  flann:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/flann-release.git
+    version: 1.8.4-0
+  flirtlib:
+    url: https://github.com/ros-gbp/flirtlib-release.git
+    version:
+  gazebo:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/gazebo-release.git
+    version: 1.5.0-3
+  gencpp:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/gencpp-release.git
+    version: 0.4.12-0
+  genlisp:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/genlisp-release.git
+    version: 0.4.11-0
+  genmsg:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/genmsg-release.git
+    version: 0.4.18-0
+  genpy:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/genpy-release.git
+    version: 0.4.11-0
+  geometric_shapes:
+    url: https://github.com/ros-gbp/geometric_shapes-release.git
+    version:
+  geometry:
+    packages:
+      eigen_conversions:
+      geometry:
+      kdl_conversions:
+      tf:
+      tf_conversions:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/geometry-release.git
+    version: 1.9.29-0
+  geometry_angles_utils:
+    packages:
+      angles:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/geometry_angles_utils-release.git
+    version: 1.9.9-0
+  hokuyo_node:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/hokuyo_node-release.git
+    version: 1.7.5-0
+  image_common:
+    packages:
+      camera_calibration_parsers:
+      camera_info_manager:
+      image_common:
+      image_transport:
+      polled_camera:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/image_common-release.git
+    version: 1.10.3-0
+  image_pipeline:
+    packages:
+      camera_calibration:
+      depth_image_proc:
+      image_pipeline:
+      image_proc:
+      image_rotate:
+      image_view:
+      stereo_image_proc:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/image_pipeline-release.git
+    version: 1.10.7-0
+  image_transport_plugins:
+    packages:
+      compressed_depth_image_transport:
+      compressed_image_transport:
+      image_transport_plugins:
+      theora_image_transport:
+    url: https://github.com/ros-gbp/image_transport_plugins-release.git
+    version:
+  interactive_marker_proxy:
+    url: https://github.com/ros-gbp/interactive_marker_proxy-release.git
+    version:
+  interactive_markers:
+    url: https://github.com/ros-gbp/interactive_markers-release.git
+    version:
+  ivcon:
+    url: https://github.com/ros-gbp/ivcon-release.git
+    version:
+  joystick_drivers:
+    packages:
+      joy:
+      joystick_drivers:
+      ps3joy:
+      spacenav_node:
+      wiimote:
+    url: https://github.com/ros-gbp/joystick_drivers-release.git
+    version:
+  keyboardteleopjs:
+    url: https://github.com/RobotWebTools-release/keyboardteleopjs-release.git
+    version:
+  kobuki:
+    packages:
+      kobuki:
+      kobuki_arm:
+      kobuki_auto_docking:
+      kobuki_bumper2pc:
+      kobuki_controller_tutorial:
+      kobuki_driver:
+      kobuki_ftdi:
+      kobuki_keyop:
+      kobuki_node:
+      kobuki_safety_controller:
+      kobuki_testsuite:
+    url: https://github.com/yujinrobot-release/kobuki-release.git
+    version:
+  kobuki_msgs:
+    url: https://github.com/yujinrobot-release/kobuki_msgs-release.git
+    version:
+  korg_nanokontrol:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/korg_nanokontrol-release.git
+    version: 0.1.1-0
+  langs:
+    url: https://github.com/ros-gbp/langs-release.git
+    version:
+  langs-dev:
+    url: https://github.com/ros-gbp/langs-dev-release.git
+    version:
+  laser_geometry:
+    url: https://github.com/ros-gbp/laser_geometry-release.git
+    version:
+  laser_proc:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/laser_proc-release.git
+    version: 0.1.2-0
+  libccd:
+    url: https://github.com/ros-gbp/libccd-release.git
+    version:
+  libg2o:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/libg2o-release.git
+    version: 2013.03.21-1
+  libsegwayrmp:
+    url: https://github.com/segwayrmp/libsegwayrmp-release.git
+    version:
+  libsiftfast:
+    url: https://github.com/start-jsk/libsiftfast-release.git
+    version:
+  manipulation_msgs:
+    url: https://github.com/ros-gbp/manipulation_msgs-release.git
+    version:
+  map2djs:
+    url: https://github.com/RobotWebTools-release/map2djs-release.git
+    version:
+  message_generation:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/message_generation-release.git
+    version: 0.2.9-0
+  message_runtime:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/message_runtime-release.git
+    version: 0.4.11-0
+  microstrain_3dmgx2_imu:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/microstrain_3dmgx2_imu-release.git
+    version: 1.5.3-0
+  mjpegcanvasjs:
+    url: https://github.com/RobotWebTools-release/mjpegcanvasjs-release.git
+    version:
+  moveit_commander:
+    url: https://github.com/ros-gbp/moveit_commander-release.git
+    version:
+  moveit_core:
+    url: https://github.com/ros-gbp/moveit_core-release.git
+    version:
+  moveit_metapackages:
+    packages:
+      moveit_full:
+      moveit_full_pr2:
+      moveit_source_build_deps:
+    url: https://github.com/ros-gbp/moveit_metapackages-release.git
+    version:
+  moveit_msgs:
+    url: https://github.com/ros-gbp/moveit_msgs-release.git
+    version:
+  moveit_planners:
+    packages:
+      moveit_ompl_planners_core:
+        subfolder: ompl/core
+      moveit_ompl_planners_ros_plugin:
+        subfolder: ompl/ros
+      moveit_planners:
+    url: https://github.com/ros-gbp/moveit_planners-release.git
+    version:
+  moveit_pr2:
+    packages:
+      moveit_pr2:
+      pr2_moveit_config:
+      pr2_moveit_plugins:
+      pr2_moveit_tutorials:
+    url: https://github.com/ros-gbp/moveit_pr2-release.git
+    version:
+  moveit_resources:
+    url: https://github.com/ros-gbp/moveit_resources-release.git
+    version:
+  moveit_ros:
+    packages:
+      moveit_ros:
+      moveit_ros_benchmarks:
+        subfolder: benchmarks
+      moveit_ros_manipulation:
+        subfolder: manipulation
+      moveit_ros_move_group:
+        subfolder: move_group
+      moveit_ros_perception:
+        subfolder: perception
+      moveit_ros_planning:
+        subfolder: planning
+      moveit_ros_planning_interface:
+        subfolder: planning_interface
+      moveit_ros_visualization:
+        subfolder: visualization
+      moveit_ros_warehouse:
+        subfolder: warehouse
+    url: https://github.com/ros-gbp/moveit_ros-release.git
+    version:
+  moveit_setup_assistant:
+    url: https://github.com/ros-gbp/moveit_setup_assistant-release.git
+    version:
+  nav2djs:
+    url: https://github.com/RobotWebTools-release/nav2djs-release.git
+    version:
+  nodelet_core:
+    packages:
+      nodelet:
+        subfolder: nodelet
+      nodelet_core:
+        subfolder: nodelet_core
+      nodelet_topic_tools:
+        subfolder: nodelet_topic_tools
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/nodelet_core-release.git
+    version: 1.7.15-0
+  object_recognition_capture:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/object_recognition_capture-release.git
+    version: 0.2.21-0
+  object_recognition_core:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/object_recognition_core-release.git
+    version: 0.5.0-0
+  object_recognition_linemod:
+    url: https://github.com/ros-gbp/object_recognition_linemod-release.git
+    version:
+  object_recognition_msgs:
+    url: https://github.com/ros-gbp/object_recognition_msgs-release.git
+    version:
+  object_recognition_reconstruction:
+    url: https://github.com/ros-gbp/object_recognition_reconstruction-release.git
+    version:
+  object_recognition_renderer:
+    url: https://github.com/ros-gbp/object_recognition_renderer-release.git
+    version:
+  object_recognition_ros:
+    url: https://github.com/ros-gbp/object_recognition_ros-release.git
+    version:
+  object_recognition_tabletop:
+    url: https://github.com/ros-gbp/object_recognition_tabletop-release.git
+    version:
+  object_recognition_tod:
+    url: https://github.com/ros-gbp/object_recognition_tod-release.git
+    version:
+  object_recognition_transparent_objects:
+    url: https://github.com/ros-gbp/object_recognition_transparent_objects-release.git
+    version:
+  octomap:
+    packages:
+      octomap:
+      octovis:
+    url: https://github.com/ros-gbp/octomap-release.git
+    version:
+  octomap_msgs:
+    url: https://github.com/ros-gbp/octomap_msgs-release.git
+    version:
+  octomap_ros:
+    url: https://github.com/ros-gbp/octomap_ros-release.git
+    version:
+  ompl:
+    url: https://github.com/ros-gbp/ompl-release.git
+    version:
+  opencv2:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/opencv2-release.git
+    version: 2.4.4-1
+  opencv_candidate:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/opencv_candidate-release.git
+    version: 0.1.8-0
+  openni_camera:
+    url: https://github.com/ros-gbp/openni_camera-release.git
+    version:
+  openni_launch:
+    url: https://github.com/ros-gbp/openni_launch-release.git
+    version:
+  orocos_kdl:
+    packages:
+      kdl:
+      orocos_kdl:
+      orocos_kinematics_dynamics:
+      python_orocos_kdl:
+    url: https://github.com/ros-gbp/orocos_kdl-release.git
+    version:
+  pcl:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/pcl-release.git
+    version: 1.6.0-0
+  pcl_msgs:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/pcl_msgs-release.git
+    version: 0.0.3-0
+  perception_pcl:
+    packages:
+      pcl_ros:
+      perception_pcl:
+    url: https://github.com/ros-gbp/perception_pcl-release.git
+    version:
+  pluginlib:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/pluginlib-release.git
+    version: 1.9.19-0
+  pr2_controllers_msgs:
+    url: https://github.com/ros-gbp/pr2_controllers_msgs-release.git
+    version:
+  pr2_mechanism_msgs:
+    url: https://github.com/ros-gbp/pr2_mechanism_msgs-release.git
+    version:
+  python_qt_binding:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/python_qt_binding-release.git
+    version: 0.2.8-0
+  qt_gui_core:
+    packages:
+      qt_dotgraph:
+      qt_gui:
+      qt_gui_app:
+      qt_gui_core:
+      qt_gui_cpp:
+      qt_gui_py_common:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/qt_gui_core-release.git
+    version: 0.2.12-0
+  rail_maps:
+    url: https://github.com/wpi-rail-release/rail_maps-release.git
+    version:
+  random_numbers:
+    url: https://github.com/ros-gbp/random_numbers-release.git
+    version:
+  reflexxes_type2:
+    url: https://github.com/ros-gbp/reflexxes_type2-release.git
+    version:
+  robot_model:
+    packages:
+      collada_parser:
+        subfolder: collada_parser
+      collada_urdf:
+        subfolder: collada_urdf
+      joint_state_publisher:
+        subfolder: joint_state_publisher
+      kdl_parser:
+        subfolder: kdl_parser
+      resource_retriever:
+        subfolder: resource_retriever
+      robot_model:
+        subfolder: robot_model
+      urdf:
+        subfolder: urdf
+      urdf_parser:
+        subfolder: urdf_parser
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/robot_model-release.git
+    version: 1.10.3-0
+  robot_pose_publisher:
+    url: https://github.com/wpi-rail-release/robot_pose_publisher-release.git
+    version:
+  robot_state_publisher:
+    url: https://github.com/ros-gbp/robot_state_publisher-release.git
+    version:
+  rocon_app_platform:
+    packages:
+      rocon_app_manager:
+      rocon_app_manager_www:
+      rocon_app_platform:
+      rocon_apps:
+    url: https://github.com/yujinrobot-release/rocon_app_platform-release.git
+    version:
+  rocon_concert:
+    packages:
+      concert_conductor:
+      concert_master:
+      rocon_concert:
+      rocon_orchestra:
+    url: https://github.com/yujinrobot-release/rocon_concert-release.git
+    version:
+  rocon_msgs:
+    packages:
+      concert_msgs:
+      gateway_msgs:
+      rocon_app_manager_msgs:
+      rocon_demo_msgs:
+      rocon_msgs:
+    url: https://github.com/yujinrobot-release/rocon_msgs-release.git
+    version:
+  rocon_multimaster:
+    packages:
+      redis:
+      rocon_gateway:
+      rocon_gateway_tests:
+      rocon_hub:
+      rocon_hub_client:
+      rocon_multimaster:
+      rocon_unreliable_experiments:
+      rocon_utilities:
+    url: https://github.com/yujinrobot-release/rocon_multimaster-release.git
+    version:
+  rocon_rqt_plugins:
+    packages:
+      rocon_gateway_graph:
+      rocon_rqt_plugins:
+    url: https://github.com/yujinrobot-release/rocon_rqt_plugins-release.git
+    version:
+  rocon_tutorials:
+    packages:
+      chatter_concert:
+      rocon:
+      rocon_gateway_tutorials:
+      rocon_tutorials:
+      turtle_concert:
+      turtle_race_concert:
+      turtle_race_controllers:
+      turtle_stroll:
+    url: https://github.com/yujinrobot-release/rocon_tutorials-release.git
+    version:
+  ros:
+    packages:
+      mk:
+        subfolder: core/mk
+      ros:
+        subfolder: ros
+      rosbash:
+        subfolder: tools/rosbash
+      rosboost_cfg:
+        subfolder: tools/rosboost_cfg
+      rosbuild:
+        subfolder: core/rosbuild
+      rosclean:
+        subfolder: tools/rosclean
+      roscreate:
+        subfolder: tools/roscreate
+      roslang:
+        subfolder: core/roslang
+      roslib:
+        subfolder: core/roslib
+      rosmake:
+        subfolder: tools/rosmake
+      rosunit:
+        subfolder: tools/rosunit
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/ros-release.git
+    version: 1.10.0-0
+  ros_comm:
+    packages:
+      message_filters:
+        subfolder: utilities/message_filters
+      ros_comm:
+        subfolder: ros_comm
+      rosbag:
+        subfolder: tools/rosbag
+      rosconsole:
+        subfolder: tools/rosconsole
+      roscpp:
+        subfolder: clients/roscpp
+      rosgraph:
+        subfolder: tools/rosgraph
+      rosgraph_msgs:
+        subfolder: messages/rosgraph_msgs
+      roslaunch:
+        subfolder: tools/roslaunch
+      rosmaster:
+        subfolder: tools/rosmaster
+      rosmsg:
+        subfolder: tools/rosmsg
+      rosnode:
+        subfolder: tools/rosnode
+      rosout:
+        subfolder: tools/rosout
+      rosparam:
+        subfolder: tools/rosparam
+      rospy:
+        subfolder: clients/rospy
+      rosservice:
+        subfolder: tools/rosservice
+      rostest:
+        subfolder: tools/rostest
+      rostopic:
+        subfolder: tools/rostopic
+      roswtf:
+        subfolder: utilities/roswtf
+      std_srvs:
+        subfolder: messages/std_srvs
+      topic_tools:
+        subfolder: tools/topic_tools
+      xmlrpcpp:
+        subfolder: utilities/xmlrpcpp
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/ros_comm-release.git
+    version: 1.9.44-0
+  ros_http_video_streamer:
+    url: https://github.com/ros-gbp/ros_http_video_streamer-release.git
+    version:
+  ros_tutorials:
+    packages:
+      ros_tutorials:
+      roscpp_tutorials:
+      rospy_tutorials:
+      turtlesim:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/ros_tutorials-release.git
+    version: 0.3.11-0
+  rosauth:
+    url: https://github.com/wpi-rail-release/rosauth-release.git
+    version:
+  rosconsole_bridge:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/rosconsole_bridge-release.git
+    version: 0.3.1-0
+  roscpp_core:
+    packages:
+      cpp_common:
+      roscpp_core:
+      roscpp_serialization:
+      roscpp_traits:
+      rostime:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/roscpp_core-release.git
+    version: 0.3.14-0
+  rosdoc_lite:
+    url: https://github.com/ros-gbp/rosdoc_lite-release.git
+    version:
+  rosjs:
+    url: https://github.com/RobotWebTools-release/rosjs-release.git
+    version:
+  roslisp:
+    url: https://github.com/ros-gbp/roslisp-release.git
+    version:
+  rospack:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/rospack-release.git
+    version: 2.1.18-0
+  rqt:
+    packages:
+      rqt:
+      rqt_gui:
+      rqt_gui_cpp:
+      rqt_gui_py:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/rqt-release.git
+    version: 0.2.8-0
+  rqt_common_plugins:
+    packages:
+      rqt_action:
+      rqt_bag:
+      rqt_bag_plugins:
+      rqt_common_plugins:
+      rqt_console:
+      rqt_dep:
+      rqt_graph:
+      rqt_image_view:
+      rqt_launch:
+      rqt_logger_level:
+      rqt_msg:
+      rqt_plot:
+      rqt_publisher:
+      rqt_py_common:
+      rqt_py_console:
+      rqt_reconfigure:
+      rqt_service_caller:
+      rqt_shell:
+      rqt_srv:
+      rqt_topic:
+      rqt_web:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/rqt_common_plugins-release.git
+    version: 0.2.14-1
+  rqt_robot_plugins:
+    packages:
+      rqt_nav_view:
+      rqt_pose_view:
+      rqt_robot_dashboard:
+      rqt_robot_monitor:
+      rqt_robot_plugins:
+      rqt_robot_steering:
+      rqt_runtime_monitor:
+      rqt_rviz:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
+    version: 0.2.9-0
+  rviz:
+    url: https://github.com/ros-gbp/rviz-release.git
+    version:
+  sbpl:
+    url: https://github.com/ros-gbp/sbpl-release.git
+    version:
+  serial:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/wjwwood/serial-release.git
+    version: 1.1.3-24
+  shape_tools:
+    url: https://github.com/ros-gbp/shape_tools-release.git
+    version:
+  sql_database:
+    url: https://github.com/ros-gbp/sql_database-release.git
+    version:
+  srdfdom:
+    url: https://github.com/ros-gbp/srdfdom-release.git
+    version:
+  std_msgs:
+    tags:
+      release: release/{package}/{upstream_version}
+    url: https://github.com/ros-gbp/std_msgs-release.git
+    version: 0.5.7-0
+  tf2_web_republisher:
+    url: https://github.com/ros-gbp/tf2_web_republisher-release.git
+    version:
+  unique_identifier:
+    packages:
+      unique_id:
+      unique_identifier:
+      uuid_msgs:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-geographic-info/unique_identifier-release.git
+    version: 1.0.1-0
+  urdfdom:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/urdfdom-release.git
+    version: 0.2.7-1
+  urdfdom_headers:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/urdfdom_headers-release.git
+    version: 0.2.2-1
+  urg_c:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/urg_c-release.git
+    version: 1.0.401-0
+  urg_node:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/urg_node-release.git
+    version: 0.1.2-0
+  vision_opencv:
+    packages:
+      cv_bridge:
+      image_geometry:
+      vision_opencv:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-gbp/vision_opencv-release.git
+    version: 1.10.6-0
+  visp:
+    url: https://github.com/laas/visp-release.git
+    version:
+  warehouse_ros:
+    url: https://github.com/ros-gbp/warehouse-release.git
+    version:
+  yujin_ocs:
+    packages:
+      cmd_vel_mux:
+      yocs_controllers:
+      yocs_velocity_smoother:
+      yujin_ocs:
+    url: https://github.com/yujinrobot-release/yujin_ocs-release.git
+    version:
+  zeroconf_avahi_suite:
+    packages:
+      zeroconf_avahi:
+      zeroconf_avahi_demos:
+      zeroconf_avahi_suite:
+    url: https://github.com/yujinrobot-release/zeroconf_avahi_suite-release.git
+    version:
+  zeroconf_msgs:
+    url: https://github.com/yujinrobot-release/zeroconf_msgs-release.git
+    version:
+type: release
+version: 1
