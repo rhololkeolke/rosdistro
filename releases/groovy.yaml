@@ -66,6 +66,11 @@ repositories:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/calibration-release.git
     version: 0.9.27-0
+  camera_info_manager_py:
+    tags:
+      release: release/groovy/{package}/{version}
+    url: https://github.com/jack-oquin/camera_info_manager_py-release.git
+    version: 0.2.0-0
   catkin:
     tags:
       release: release/groovy/{package}/{version}
@@ -592,7 +597,7 @@ repositories:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_core-release.git
-    version: 0.5.0-0
+    version: 0.5.1-0
   object_recognition_linemod:
     tags:
       release: release/groovy/{package}/{version}
@@ -602,7 +607,7 @@ repositories:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_msgs-release.git
-    version: 0.3.18-0
+    version: 0.3.19-0
   object_recognition_reconstruction:
     tags:
       release: release/groovy/{package}/{version}
@@ -1091,13 +1096,14 @@ repositories:
     version: 0.2.0-0
   sphero_ros:
     packages:
+      sphero_bringup:
       sphero_description:
       sphero_driver:
       sphero_node:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/mmwise/sphero_ros-release.git
-    version: 0.1.1-0
+    version: 0.1.2-0
   sql_database:
     tags:
       release: release/{package}/{upstream_version}

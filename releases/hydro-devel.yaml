@@ -107,6 +107,10 @@ repositories:
     type: git
     url: https://github.com/ros/genpy.git
     version:
+  geographic_info:
+    type: git
+    url: https://github.com/ros-geographic-info/geographic_info.git
+    version: master
   geometric_shapes:
     type: hg
     url: https://kforge.ros.org/geometry/geometric_shapes

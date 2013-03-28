@@ -490,13 +490,15 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_core-release.git
-    version: 0.5.0-0
+    version: 0.5.1-0
   object_recognition_linemod:
     url: https://github.com/ros-gbp/object_recognition_linemod-release.git
     version:
   object_recognition_msgs:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_msgs-release.git
-    version:
+    version: 0.3.19-0
   object_recognition_reconstruction:
     url: https://github.com/ros-gbp/object_recognition_reconstruction-release.git
     version:
