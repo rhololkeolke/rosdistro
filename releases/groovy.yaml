@@ -736,9 +736,9 @@ repositories:
       qt_gui_cpp:
       qt_gui_py_common:
     tags:
-      release: release/{package}/{upstream_version}
+      release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/qt_gui_core-release.git
-    version: 0.2.12-0
+    version: 0.2.14-0
   qt_ros:
     packages:
       qt_build:
