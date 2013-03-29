@@ -1169,8 +1169,10 @@ repositories:
     url: https://github.com/ros-gbp/warehouse-release.git
     version: 0.7.12-0
   yujin_maps:
+    tags:
+      release: release/groovy/{package}/{version}
     url: https://github.com/yujinrobot-release/yujin_maps-release.git
-    version:
+    version: 0.1.0-0
   yujin_ocs:
     packages:
       cmd_vel_mux:
