@@ -525,12 +525,18 @@ repositories:
   octomap:
     packages:
       octomap:
+        subfolder: octomap
       octovis:
+        subfolder: octovis
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/octomap-release.git
-    version:
+    version: 1.5.90-0
   octomap_msgs:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/octomap_msgs-release.git
-    version:
+    version: 0.3.0-0
   octomap_ros:
     url: https://github.com/ros-gbp/octomap_ros-release.git
     version:
