@@ -730,15 +730,21 @@ repositories:
   qt_gui_core:
     packages:
       qt_dotgraph:
+        subfolder: qt_dotgraph
       qt_gui:
+        subfolder: qt_gui
       qt_gui_app:
+        subfolder: qt_gui_app
       qt_gui_core:
+        subfolder: qt_gui_core
       qt_gui_cpp:
+        subfolder: qt_gui_cpp
       qt_gui_py_common:
+        subfolder: qt_gui_py_common
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/qt_gui_core-release.git
-    version: 0.2.14-0
+    version: 0.2.15-0
   qt_ros:
     packages:
       qt_build:
