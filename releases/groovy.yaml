@@ -464,8 +464,10 @@ repositories:
     url: https://github.com/ros-gbp/libccd-release.git
     version: 1.4.0-2
   libcsm:
+    tags:
+      release: release/groovy/{package}/{version}
     url: https://github.com/stwirth/libcsm-release.git
-    version:
+    version: 2013.03.26-0
   libg2o:
     tags:
       release: release/{package}/{upstream_version}
