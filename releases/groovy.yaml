@@ -868,8 +868,10 @@ repositories:
       turtle_race_concert:
       turtle_race_controllers:
       turtle_stroll:
+    tags:
+      release: release/groovy/{package}/{version}
     url: https://github.com/yujinrobot-release/rocon_tutorials-release.git
-    version:
+    version: 0.3.3-0
   ros:
     packages:
       mk:
