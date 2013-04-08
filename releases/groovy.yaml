@@ -861,17 +861,25 @@ repositories:
   rocon_tutorials:
     packages:
       chatter_concert:
+        subfolder: concert_tutorials/chatter_concert
       rocon:
+        subfolder: rocon
       rocon_gateway_tutorials:
+        subfolder: rocon_gateway_tutorials
       rocon_tutorials:
+        subfolder: rocon_tutorials
       turtle_concert:
+        subfolder: concert_tutorials/turtle_concert
       turtle_race_concert:
+        subfolder: concert_tutorials/turtle_race_concert
       turtle_race_controllers:
+        subfolder: concert_tutorials/software/turtle_race_controllers
       turtle_stroll:
+        subfolder: concert_tutorials/software/turtle_stroll
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/yujinrobot-release/rocon_tutorials-release.git
-    version: 0.3.3-0
+    version: 0.3.4-0
   ros:
     packages:
       mk:
