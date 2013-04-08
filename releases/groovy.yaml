@@ -977,7 +977,7 @@ repositories:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/RobotWebTools-release/rosbridge_suite-release.git
-    version: 0.4.3-0
+    version: 0.4.4-0
   rosconsole_bridge:
     tags:
       release: release/groovy/{package}/{version}
