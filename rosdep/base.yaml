@@ -1271,7 +1271,7 @@ omniorb4-idl:
   debian: [omniorb-idl]
   ubuntu: [omniorb4-idl]
 opencv2:
-  ubuntu: [ros-hydro-opencv2]
+  ubuntu: [ros-fuerte-opencv2]
 opengl:
   arch: [mesa]
   debian: [libgl1-mesa-dev, libglu1-mesa-dev]
